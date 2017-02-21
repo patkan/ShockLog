@@ -12,6 +12,7 @@
 bin/
 gen/
 out/
+.externalNativeBuild
 
 # Gradle files
 .gradle/
@@ -35,6 +36,12 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
+.idea/libraries
 
 # Keystore files
 *.jks
+
+# file system browser and such
+.DS_Store
+*.directory
+
